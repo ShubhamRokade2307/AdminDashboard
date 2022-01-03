@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { LazyLoadModule } from './lazy-load/lazy-load.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreModule } from './core/core.module';
+import { AdminDashboardModule } from './admin-dashboard/admin-dashboard.module';
 
 
 
@@ -17,7 +18,8 @@ import { CoreModule } from './core/core.module';
     BrowserModule,
     LazyLoadModule,
     CoreModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AdminDashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
