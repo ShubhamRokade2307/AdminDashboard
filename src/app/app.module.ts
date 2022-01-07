@@ -9,6 +9,8 @@ import { AdminDashboardModule } from './admin-dashboard/admin-dashboard.module';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,8 @@ import { AdminDashboardModule } from './admin-dashboard/admin-dashboard.module';
     LazyLoadModule,
     CoreModule,
     BrowserAnimationsModule,
-    AdminDashboardModule
+    AdminDashboardModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

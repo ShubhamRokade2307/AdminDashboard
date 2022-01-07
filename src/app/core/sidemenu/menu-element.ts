@@ -24,22 +24,22 @@ export const menus = [
         'chip': { 'value': 1, 'color': 'accent' },
         'sub': [
             {
-                'name': 'Banner',
-                'link': 'material-widgets/list',
+                'name': 'Home-Banner',
+                'link': 'home/homebanner',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
             },
             {
-                'name': 'First Counter',
-                'link': 'material-widgets/list',
+                'name': 'Home-First-Counter',
+                'link': 'home/firstcounter',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
             },
             {
 
-                'name': 'Audio-Videos',
+                'name': 'Home-Audio-Videos',
                 'link': 'material-widgets/stepper',
                 'icon': 'list',
                 'chip': false,
@@ -48,8 +48,26 @@ export const menus = [
             },
             {
 
-                'name': 'Our Services ',
-                'link': 'material-widgets/stepper',
+                'name': 'Home-Solutions-Provide',
+                'link': 'home/solution-we-provide',
+                'icon': 'list',
+                'chip': false,
+                'open': false,
+
+            },
+            {
+
+                'name': 'Home-What-We-Built',
+                'link': 'home/What-We-Built',
+                'icon': 'list',
+                'chip': false,
+                'open': false,
+
+            },
+            {
+
+                'name': 'Home-Our-Products',
+                'link': 'home/our-products',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
@@ -66,26 +84,8 @@ export const menus = [
             },
             {
 
-                'name': 'Our Products',
-                'link': 'material-widgets/stepper',
-                'icon': 'list',
-                'chip': false,
-                'open': false,
-
-            },
-            {
-
-                'name': 'Trusted Onces',
-                'link': 'material-widgets/stepper',
-                'icon': 'list',
-                'chip': false,
-                'open': false,
-
-            },
-            {
-
-                'name': 'Testimonial',
-                'link': 'material-widgets/stepper',
+                'name': 'Home-Testimonial',
+                'link': 'home/testimonial',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
@@ -102,8 +102,8 @@ export const menus = [
             },
             {
 
-                'name': 'partner',
-                'link': 'material-widgets/stepper',
+                'name': 'Home-partner',
+                'link': 'home/partnars',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
@@ -131,35 +131,48 @@ export const menus = [
         'sub': [
             {
                 'name': 'Banner',
-                'link': 'material-widgets/buttons',
+                'link': 'aboutus/aboutbanner',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
             },
-            {
-                'name': 'Content',
-                'link': 'material-widgets/list',
-                'icon': 'list',
-                'chip': false,
-                'open': false,
-            },
-            {
+            // {
+            //     'name': 'Cards',
+            //     'link': 'material-widgets/list',
+            //     'icon': 'list',
+            //     'chip': false,
+            //     'open': false,
+            // },
+            // {
 
-                'name': 'Content Section',
-                'link': 'material-widgets/stepper',
+            //     'name': 'Business Technology',
+            //     'link': 'material-widgets/stepper',
+            //     'icon': 'list',
+            //     'chip': false,
+            //     'open': false,
+
+            // },
+            {
+                'name': 'We-provide-Services',
+                'link': 'aboutus/ServicesForBusiness',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
-
             },
             {
-                'name': 'Key Points',
-                'link': 'material-widgets/expansion',
+                'name': 'Working Process',
+                'link': 'aboutus/ourworkingprocess',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
             },
-           
+            {
+                'name': 'Video',
+                'link': 'aboutus/aboutvideo',
+                'icon': 'list',
+                'chip': false,
+                'open': false,
+            },
         ]
     },
 
@@ -172,30 +185,30 @@ export const menus = [
         'sub': [
             {
                 'name': 'Banner',
-                'link': 'material-widgets/buttons',
+                'link': 'solutionbanner',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
             },
             {
-                'name': 'Content',
-                'link': 'material-widgets/list',
+                'name': 'service Provide',
+                'link': 'serviceProvide',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
             },
             {
 
-                'name': 'Content Section',
-                'link': 'material-widgets/stepper',
+                'name': 'solution Provide',
+                'link': 'solutionProvide',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
 
             },
             {
-                'name': 'Key Points',
-                'link': 'material-widgets/expansion',
+                'name': 'Solution Testimonial',
+                'link': 'solutionTestimonial',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
@@ -212,31 +225,31 @@ export const menus = [
         'chip': { 'value': 4, 'color': 'accent' },
         'sub': [
             {
-                'name': 'Banner',
-                'link': 'material-widgets/buttons',
+                'name': 'Products_Banner',
+                'link': 'productsbanner',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
             },
             {
-                'name': 'Content',
-                'link': 'material-widgets/list',
+                'name': 'Our_Products',
+                'link': 'our_Products',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
             },
             {
 
-                'name': 'Content Section',
-                'link': 'material-widgets/stepper',
+                'name': 'What_We_Built',
+                'link': 'what_we_built',
                 'icon': 'list',
                 'chip': false,
                 'open': false,
 
             },
             {
-                'name': 'Key Points',
-                'link': 'material-widgets/expansion',
+                'name': 'Partnars',
+                'link': 'our_partners',
                 'icon': 'list',
                 'chip': false,
                 'open': false,

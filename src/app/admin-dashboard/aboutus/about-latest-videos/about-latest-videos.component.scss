@@ -1,0 +1,65 @@
+
+.stepper-header {
+    background-color: #327ebd;
+    color: white;
+    padding: 0 5px;
+}
+.stepper-component-holder {
+border: 1px solid #327ebd;
+background-color: white;
+
+h4 {
+    color: #327ebd;
+    margin: 14px 0;
+}
+
+mat-divider {
+    margin-bottom: 10px;
+}
+}
+.stepper-container {
+padding: 5px 15px 15px 15px;
+}
+
+
+
+
+
+.mat-form-field {
+    margin: 40px 0;
+    width: 500px !important;
+}
+
+.mat-toolbar-single-row {
+    height: auto !important;
+    // background: transparent;
+}
+
+.mat-toolbar-single-row button {
+    width: 200px;
+}
+
+.mat-form-field {
+    width: 100%;
+}
+
+#uploadFile {
+    top: 0px;
+    left: 0px;
+    width: 100%;    
+    z-index: 9;
+    opacity: 0;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+
+table {
+    width: 100%;
+  }
+
+
+
+  

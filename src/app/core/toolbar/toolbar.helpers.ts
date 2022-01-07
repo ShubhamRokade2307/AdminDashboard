@@ -21,7 +21,8 @@ export const ToolbarHelpers = {
 	],
 
 	currentUser: {
-		photoURL: 'assets/images/avatars/hari.jpg',
-		currentUserName: 'Hari Krishna'
+		photoURL: './assets/Img.jpg',
+		// ./assets/logo.codetok.png
+		currentUserName: 'MAHAVIR'
 	}
 };

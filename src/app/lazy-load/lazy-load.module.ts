@@ -11,7 +11,8 @@ const routes: Routes = [
    
     {path: 'dashboard', loadChildren: () => import('../admin-dashboard/admin-dashboard.module').then(m => m.AdminDashboardModule)},
 
-    {path: '**', redirectTo: 'auth/dashboard'},
+    // {path: '**', redirectTo: 'auth/dashboard'},
+    {path: '**', redirectTo: 'dashboard'},
    
 ]
 
