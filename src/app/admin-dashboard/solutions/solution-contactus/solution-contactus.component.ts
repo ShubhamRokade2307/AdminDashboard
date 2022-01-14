@@ -16,11 +16,11 @@ const ELEMENT_DATA: PeriodicElement[] = [
   
 ];
 @Component({
-  selector: 'app-audio-video-solutions',
-  templateUrl: './audio-video-solutions.component.html',
-  styleUrls: ['./audio-video-solutions.component.scss']
+  selector: 'app-solution-contactus',
+  templateUrl: './solution-contactus.component.html',
+  styleUrls: ['./solution-contactus.component.scss']
 })
-export class AudioVideoSolutionsComponent implements OnInit {
+export class SolutionContactusComponent implements OnInit {
 
   @ViewChild('fileInput') fileInput: ElementRef;
   fileAttr = 'Choose File';
@@ -41,4 +41,10 @@ export class AudioVideoSolutionsComponent implements OnInit {
 
   	
   	}
-}
+
+
+
+
+   
+  
+  }

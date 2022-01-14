@@ -1,23 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HeaderinfoComponent } from './headerinfo/headerinfo.component';
 
-import { AdminDashboardRoutingModule } from './admin-dashboard-routing.module';
+import { CommonModuleModule } from '../common-module/common-module.module';
 
-// import { AuthComponent } from './auth.component';
-import { RouterModule } from '@angular/router';
+
+
+import { AdminDashboardRoutingModule } from '../admin-dashboard-routing.module';
+
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatTabsModule } from '@angular/material/tabs';
-import { DashboardCrmModule } from '../dashboard-crm/dashboard-crm.module';
-// import { CoreModule } from '@angular/flex-layout';
-import { CoreModule } from '../core/core.module';
 import { NgScrollbarModule } from 'ngx-scrollbar';
-import { MenusComponent } from './menus/menus.component';
-
-
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatListModule } from '@angular/material/list';
@@ -38,20 +35,21 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSliderModule } from '@angular/material/slider';
 
-import { SolutionsModule } from './solutions/solutions.module';
-import { ProductsModule } from './products/products.module';
-import { CommonModuleModule } from './common-module/common-module.module';
-import { HomeModule } from './home/home.module';
-import { AboutusModule } from './aboutus/aboutus.module';
-import { FooterModule } from './footer/footer.module';
-import { BlogsModule } from './blogs/blogs.module';
-import { ContactusModule } from './contactus/contactus.module';
-import { HeaderModule } from './header/header.module';
+import { MatTableModule } from '@angular/material/table';
+import { DashboardCrmModule } from '../../dashboard-crm/dashboard-crm.module';
+import { CoreModule } from '../../core/core.module';
+
+
 
 @NgModule({
-  declarations: [MenusComponent],
+  declarations: [
+    HeaderinfoComponent
+  ],
   imports: [
     CommonModule,
+
+    CommonModuleModule,
+
     AdminDashboardRoutingModule,
 
     MatToolbarModule,
@@ -59,11 +57,9 @@ import { HeaderModule } from './header/header.module';
     MatButtonModule,
     MatIconModule,
     MatTabsModule,
-    CoreModule,
+     CoreModule,
     MatSidenavModule,
-    // PerfectScrollbarModule,
     NgScrollbarModule,
-
     FlexLayoutModule,
     MatAutocompleteModule,
     MatButtonModule,
@@ -88,20 +84,7 @@ import { HeaderModule } from './header/header.module';
     MatSelectModule,
     MatSlideToggleModule,
     MatProgressBarModule,
-    // HighlightModule,
-    // MaterialWidgetsRouterModule
-
-   
-    SolutionsModule,
-    ProductsModule,
-    HomeModule,
-    AboutusModule,
-    FooterModule,
-    BlogsModule,
-    ContactusModule,
-    HeaderModule,
-
-    CommonModuleModule
+    MatTableModule
   ]
 })
-export class AdminDashboardModule {}
+export class HeaderModule { }

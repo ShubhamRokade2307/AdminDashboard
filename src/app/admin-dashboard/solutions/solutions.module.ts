@@ -38,6 +38,7 @@ import { CoreModule } from '../../core/core.module';
 import { SolutionProvideComponent } from './solution-provide/solution-provide.component';
 import { ServiceProvideComponent } from './service-provide/service-provide.component';
 import { SolutionTestimonialComponent } from './solution-testimonial/solution-testimonial.component';
+import { SolutionContactusComponent } from './solution-contactus/solution-contactus.component';
 
 
 @NgModule({
@@ -45,7 +46,9 @@ import { SolutionTestimonialComponent } from './solution-testimonial/solution-te
     SolutionbannerComponent,
     SolutionProvideComponent,
     ServiceProvideComponent,
-    SolutionTestimonialComponent
+    SolutionTestimonialComponent,
+    SolutionContactusComponent,
+    
   ],
   imports: [
     CommonModule,

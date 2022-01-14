@@ -1,5 +1,6 @@
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+// import { STEPPER_HELPERS } from '../../material-widgets/stepper/helpers.data';
 
 export interface PeriodicElement {
   name: string;
@@ -15,13 +16,15 @@ const ELEMENT_DATA: PeriodicElement[] = [
   {position: 4, name: 'Beryllium', weight: 9.0122},
   
 ];
-@Component({
-  selector: 'app-audio-video-solutions',
-  templateUrl: './audio-video-solutions.component.html',
-  styleUrls: ['./audio-video-solutions.component.scss']
-})
-export class AudioVideoSolutionsComponent implements OnInit {
 
+@Component({
+  selector: 'app-about-cards',
+  templateUrl: './about-cards.component.html',
+  styleUrls: ['./about-cards.component.scss']
+})
+export class AboutCardsComponent implements OnInit {
+
+ 
   @ViewChild('fileInput') fileInput: ElementRef;
   fileAttr = 'Choose File';
 
@@ -41,4 +44,8 @@ export class AudioVideoSolutionsComponent implements OnInit {
 
   	
   	}
-}
+
+
+
+
+  }

@@ -9,7 +9,9 @@
       <h1 class="mat-headline center-align">First Counter</h1>
     </mat-toolbar>
 
-    <div class="container" style="padding: 10px;">
+    <div class="container" style="padding: 10px;" [formGroup]="memberform"> 
+     
+
       <mat-form-field>
         <img
           class="mr-2"
@@ -45,31 +47,35 @@
 <br>
       <mat-form-field appearance="fill">
         <mat-label>Heading</mat-label>
-        <input matInput>
+        <input matInput formControlName="Heading" >
       </mat-form-field>
 &nbsp;
       <mat-form-field appearance="fill">
         <mat-label>Text</mat-label>
-        <input matInput>
+        <input matInput formControlName="Text">
       </mat-form-field>
 
+
+
+      <div class="container" style="margin-left: 30px; margin-top: 30px;">
+    
+        <div class="example-button-row">
+          <button  type="button"
+            mat-raised-button
+            color="primary"
+            style="margin-left: 60px; margin: 20px" (click)="createEmployee()"
+          >
+            Save
+          </button>
+          <button mat-raised-button color="primary">Reset</button>
+        </div>
+     
+  </div>
+    
     </div>
 
  
-    <div class="container" style="margin-left: 30px; margin-top: 30px;">
-    
-      <div class="example-button-row">
-        <button
-          mat-raised-button
-          color="primary"
-          style="margin-left: 60px; margin: 20px"
-        >
-          Save
-        </button>
-        <button mat-raised-button color="primary">Reset</button>
-      </div>
    
-</div>
 
   </div>
 

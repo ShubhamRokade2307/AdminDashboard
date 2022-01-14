@@ -39,13 +39,17 @@ import { DashboardCrmModule } from '../../dashboard-crm/dashboard-crm.module';
 import { CoreModule } from '../../core/core.module';
 
 import { AdminDashboardModule } from '../admin-dashboard.module';
+import { AboutCardsComponent } from './about-cards/about-cards.component';
+import { AboutIncreasingBusinessComponent } from './about-increasing-business/about-increasing-business.component';
 
 @NgModule({
   declarations: [
     AboutBannerComponent,
     AboutServicesForBusinessComponent,
     AboutWorkingProcessComponent,
-    AboutLatestVideosComponent
+    AboutLatestVideosComponent,
+    AboutCardsComponent,
+    AboutIncreasingBusinessComponent
   ],
   imports: [
     CommonModule,

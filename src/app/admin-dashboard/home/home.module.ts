@@ -44,9 +44,10 @@ import { MatTableModule } from '@angular/material/table';
 import { DashboardCrmModule } from '../../dashboard-crm/dashboard-crm.module';
 import { CoreModule } from '../../core/core.module';
 
-
-import { AdminDashboardModule } from '../admin-dashboard.module';
 import { FirstCounterComponent } from './first-counter/first-counter.component';
+import { HomeContactUsComponent } from './home-contact-us/home-contact-us.component';
+import { HomeWhyChooseMahavirComponent } from './home-why-choose-mahavir/home-why-choose-mahavir.component';
+
 
 
 @NgModule({
@@ -58,7 +59,10 @@ import { FirstCounterComponent } from './first-counter/first-counter.component';
     OurProductsComponent,
     HomeTestimonialComponent,
     HomePartnarsComponent,
-    FirstCounterComponent
+    FirstCounterComponent,
+    HomeContactUsComponent,
+    HomeWhyChooseMahavirComponent,
+   
   ],
   imports: [
     CommonModule,

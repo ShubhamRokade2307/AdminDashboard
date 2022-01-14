@@ -7,7 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreModule } from './core/core.module';
 import { AdminDashboardModule } from './admin-dashboard/admin-dashboard.module';
 
-
+// import { Module } from  '@angular/fire';
+// import { AngularFirestoreModule } from  '@angular/fire/firestore';
 
 
 
